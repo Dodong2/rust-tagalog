@@ -75,19 +75,19 @@ pub fn mutable_number() {
 
 
 /* 
-    Note: hindi practical na gamitin si mutable (&mut)
-    sa simple numbers Kasi nga may Copy trait ang i32.
+Note: hindi practical na gamitin si mutable (&mut)
+sa simple numbers Kasi nga may Copy trait ang i32.
 
-    Note: sa mutable bawal siya mag palit ng types.
-    dapat same types lang string kung string.
-    integer kung integers, if string to integers.
-    bawal yun kasi error nayun.
+Note: sa mutable bawal siya mag palit ng types.
+dapat same types lang string kung string.
+integer kung integers, if string to integers.
+bawal yun kasi error nayun.
 
-    Results:
-    immutable - String: s1 is Hello, len is 5 
-    immutable - number: size of 10, is 4
-    mutable - string: full message: Hello, Carl Pogi welcome sa Rust.
-    mutable - number: before: the number is 20, now the number is 50
+Results:
+immutable - String: s1 is Hello, len is 5 
+immutable - number: size of 10, is 4
+mutable - string: full message: Hello, Carl Pogi welcome sa Rust.
+mutable - number: before: the number is 20, now the number is 50
 */
 
 
