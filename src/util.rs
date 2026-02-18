@@ -4,7 +4,7 @@ pub fn print_table(title: &str, result: String) {
     println!("+{}+", "-".repeat(title.len() + 2));
 
     for line in result.lines() {
-        println!("| {} |", line);
+        println!("| {} ", line);
     }
 
     println!("+{}+\n", "-".repeat(title.len() + 2));
