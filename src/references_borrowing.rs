@@ -1,13 +1,15 @@
 use crate::table_output;
 /***BORROWING***/
 
-
-/*****IMMUTABLE Sample*****/
+// =========================
+// IMMUTABLE Sample
+// =========================
 // immutable - string
 // calculate the stack length of hello
 fn calculate_len(s: &String) -> usize {
     s.len()
 }
+
 
 pub fn immutable_string() {
     let s1 = String::from("Hello");
@@ -35,8 +37,9 @@ pub fn immutable_number() {
 }
 
 
-
-/*****MUTABLE Sample*****/
+// =========================
+// MUTABLE Sample
+// =========================
 // mutable - string
 // extends the message (dagdag)
 pub fn mutable_string() {
