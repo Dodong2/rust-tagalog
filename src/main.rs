@@ -1,13 +1,13 @@
 /* main */
 mod variables;
-mod references_borrowing;
+mod concepts;
 mod util;
 fn main() {
     /* variables */
     variables::shadowing();
     /* borrowings */
-    references_borrowing::immutable_string();
-    references_borrowing::immutable_number();
-    references_borrowing::mutable_string();
-    references_borrowing::mutable_number();
+    concepts::borrowing::immutable_string();
+    concepts::borrowing::immutable_number();
+    concepts::borrowing::mutable_string();
+    concepts::borrowing::mutable_number();
 }
