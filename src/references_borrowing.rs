@@ -56,7 +56,6 @@ fn extends_message(some_string: &mut String) {
 
 //mutable - number
 // change the number into 50
-
 fn change_number(num: &mut i32) {
     *num = 50;
 }
@@ -75,6 +74,11 @@ pub fn mutable_number() {
 /* 
     Note: hindi practical na gamitin si mutable (&mut)
     sa simple numbers Kasi nga may Copy trait ang i32.
+
+    Note: sa mutable bawal siya mag palit ng types.
+    dapat same types lang string kung string.
+    integer kung integers, if string to integers.
+    bawal yun kasi error nayun.
 
     Results:
     immutable - String: s1 is Hello, len is 5 
