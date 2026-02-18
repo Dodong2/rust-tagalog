@@ -13,6 +13,6 @@ pub fn print_table(title: &str, result: String) {
 #[macro_export]
 macro_rules! table_output {
     ($title:expr, $result:expr) => {
-     crate::util::table_util::print_table($title, format!("{}", $result))
+     crate::util::print_table($title, format!("{}", $result))
     };
 }
