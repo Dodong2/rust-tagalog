@@ -20,7 +20,7 @@ pub fn shadowing() {
 }
 
 
-// shadowing
+// shadowing change type
 // change the type of y
 pub fn change_type() {
     let _y = 10; // underscore = intentionally unused

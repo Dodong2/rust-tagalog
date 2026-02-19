@@ -1,8 +1,10 @@
 /* main */
-mod variables;
+mod basics;
 mod concepts;
 mod util;
-fn main() {  
+fn main() {
+    /* basics */
+    basics::formatted_print::print();
     /* shadowing */
     concepts::shadowing::shadowing();  
     concepts::shadowing::change_type();
