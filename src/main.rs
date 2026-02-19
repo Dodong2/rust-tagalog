@@ -2,9 +2,10 @@
 mod variables;
 mod concepts;
 mod util;
-fn main() {
-    /* variables */
-    variables::shadowing();
+fn main() {  
+    /* shadowing */
+    concepts::shadowing::shadowing();  
+    concepts::shadowing::change_type();
     /* borrowings */
     concepts::borrowing::immutable_string();
     concepts::borrowing::immutable_number();
