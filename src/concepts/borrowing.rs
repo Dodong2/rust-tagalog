@@ -42,6 +42,10 @@ pub fn immutable_number() {
 // =========================
 // mutable - string
 // extends the message (dagdag)
+fn extends_message(some_string: &mut String) {
+    some_string.push_str(", Carl Pogi welcome sa Rust.");
+}
+
 pub fn mutable_string() {
     let mut message = String::from("Hello");
 
@@ -52,9 +56,7 @@ pub fn mutable_string() {
     table_output!("mutable - string", result);
 }
 
-fn extends_message(some_string: &mut String) {
-    some_string.push_str(", Carl Pogi welcome sa Rust.");
-}
+
 
 
 //mutable - number
